@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Josh Freivogel, Product Manager</title>
+		<title>{{ page.title }}</title>
 		<!-- link to main stylesheet -->
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
@@ -15,13 +15,12 @@
     		</ul>
 		</nav>
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Josh!</h1>
-				<p>I'm best known as the guy developers love to work with. Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
+			
+		{{ content }}
+			
+    		</div><!-- /.container -->
 		<footer>
-    		<ul>
+	    	<ul>
         		<li><a href="mailto:joshf@cqg.com">email</a></li>
         		<li><a href="https://github.com/josh-cqg">github.com/joshf</a></li>
 			</ul>
